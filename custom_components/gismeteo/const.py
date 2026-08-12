@@ -374,8 +374,7 @@ FORECAST_SENSOR_DESCRIPTIONS: Final = (
         translation_key="rain_amount_forecast",
         icon="mdi:weather-rainy",
         device_class=SensorDeviceClass.PRECIPITATION,
-        native_unit_of_measurement=UnitOfPrecipitationDepth.MILLIMETERS,
-        entity_registry_enabled_default=False,
+        native_unit_of_measurement=UnitOfPrecipitationDepth.MILLIMETERS
     ),
     SensorEntityDescription(
         key=ATTR_FORECAST_SNOW_AMOUNT,
@@ -394,8 +393,7 @@ FORECAST_SENSOR_DESCRIPTIONS: Final = (
     SensorEntityDescription(
         key=ATTR_FORECAST_GEOMAGNETIC_FIELD,
         translation_key="geomagnetic_field_forecast",
-        icon="mdi:magnet-on",
-        entity_registry_enabled_default=False,
+        icon="mdi:magnet-on"
     ),
     SensorEntityDescription(
         key=ATTR_FORECAST_UV_INDEX,
